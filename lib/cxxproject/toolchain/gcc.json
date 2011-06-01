@@ -1,7 +1,9 @@
 {
-	compiler :
-	{
-		command : "g++"
+	name: gcc,
+	basedOn: base,
+	compiler : {
+    cpp : {
+      command : "g++"
+    }
 	}
 }
-
